@@ -23,7 +23,7 @@ int main(void)
 				putchar(i + '0');
 				putchar(l + '0');
 				putchar(o + '0');
-				if (i == 7 && l == 8 && 0 == 9)
+				if (i == 7 && l == 8 && o == 9)
 				{
 					continue;
 				}
