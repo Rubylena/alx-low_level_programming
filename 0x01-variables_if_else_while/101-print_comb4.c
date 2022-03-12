@@ -15,24 +15,23 @@ int main(void)
 	int o;
 
 	for (i = 0; i < 10; i++)
-{
-	for (l = i + 1; l < 10; l++)
 	{
-		for (o = l + 1; o < 10; o++)
-
+		for (l = i + 1; l < 10; l++)
 		{
-			putchar(i + '0');
-			putchar(l + '0');
-			putchar(o + '0');
-			if (i == 7 && l == 8 && 0 == 9)
+			for (o = l + 1; o < 10; o++)
 			{
-				continue;
+				putchar(i + '0');
+				putchar(l + '0');
+				putchar(o + '0');
+				if (i == 7 && l == 8 && 0 == 9)
+				{
+					continue;
+				}
+					putchar(',');
+					putchar(' ');
 			}
-				putchar(',');
-				putchar(' ');
 		}
 	}
-}
 	putchar('\n');
 	return (0);
 }
