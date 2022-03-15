@@ -1,6 +1,6 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
-#include <unistd.h>
+/* #include <unistd.h> */
 
 /**
  * _putchar - writes the character c to stdout
@@ -8,9 +8,13 @@
  * Return: 0
  */
 
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
+/**
+ * int _putchar(char c)
+ * {
+ * 	return (write(1, &c, 1));
+ * }
+ */
+
+int _putchar(char c);
 
 #endif
