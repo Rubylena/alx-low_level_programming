@@ -6,6 +6,10 @@
  */
 int add(int, int)
 {
+	int i;
+	int j;
+	int add = i + j;
+	
 	_putchar(add + '0');
 	_putchar('\n');
 	return (0);
