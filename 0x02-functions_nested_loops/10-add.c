@@ -4,7 +4,7 @@
  * @int: int type character
  * Return: 0
  */
-int add(int, int)
+int add(int i, int j)
 {
 	int i;
 	int j;
