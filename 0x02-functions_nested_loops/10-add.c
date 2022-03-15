@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * add - check the code
- * @int: int type character
+ * @i: int type character
+ * @j: int type
  * Return: 0
  */
 int add(int i, int j)
