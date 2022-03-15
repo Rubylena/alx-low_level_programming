@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _abs - check the code
- * @int: int type character
+ * @n: int type character
  * Return: 0
  */
 int _abs(int n)
