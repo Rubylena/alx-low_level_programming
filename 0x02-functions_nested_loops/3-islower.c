@@ -4,7 +4,7 @@
  * @c: char type character
  * Return: 0
  */
-int _islower(nt c)
+int _islower(int c)
 {
 	int c
 		;
