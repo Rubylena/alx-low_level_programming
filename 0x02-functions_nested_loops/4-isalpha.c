@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower - check the code
+ * _isalpha - check the code
  * @c: char type character
  * Return: 0
  */
