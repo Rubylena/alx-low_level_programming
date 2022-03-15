@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * 
  * Description - Write a program that prints _putchar
  * @c: input
  * Return: 0
@@ -17,5 +17,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+	
 	return (0);
 }
