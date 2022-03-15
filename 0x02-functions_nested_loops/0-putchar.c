@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * 
+ * main - Entry point
  * Description - Write a program that prints _putchar
  * @c: input
  * Return: 0
