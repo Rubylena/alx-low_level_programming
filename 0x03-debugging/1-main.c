@@ -19,7 +19,6 @@ int main(void)
 * {
 * putchar(i);
 * }
-* Description - "\\o/\n"
 */
 	printf("Infinite loop avoided! \\o/\n");
 
