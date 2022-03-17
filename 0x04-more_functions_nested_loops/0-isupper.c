@@ -1,17 +1,13 @@
 #include "main.h"
-
 /**
- * print_alphabet - Print alphabet in lowercase
- *
+ * _islower - check the code
+ * @c: char type character
  * Return: 0
  */
-void print_alphabet(void)
+int _isupper(int c)
 {
-	char i;
-
-	for (i = 'A'; i <= 'Z'; i++)
-	{
-		_putchar(i);
-	}
-	_putchar('\n');
+	if (c >= 65 && c <= 90)
+		return (1);
+	else
+		return (0);
 }
