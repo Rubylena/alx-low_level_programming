@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * _isupper - check the code
+ * _isdigit - check the code
  * @c: int type character
  * Return: 0
  */
-int _isupper(int c)
+int _isdigit(int c)
 {
-	if (c >= 65 && c <= 90)
+	if (c >= 48 && c <= 57)
 		return (1);
 	else
 		return (0);
