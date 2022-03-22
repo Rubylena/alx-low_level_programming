@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _puts - print a string to stdout
+ * puts2 - print a string to stdout
  * @str: char array string type
  * Description: Can only use _putchar
  */
 
-void _puts(char *str)
+void puts2(char *str)
 {
 	int i;
 
