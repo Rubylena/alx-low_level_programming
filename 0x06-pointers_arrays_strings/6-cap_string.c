@@ -1,22 +1,23 @@
 #include "main.h"
 
 /**
- * cap_string - reverse the content of an array
- * @s: array
+ * cap_string - capitalizes every word of the string
+ * @s: string to be capitalized
  *
- * Return: 0
+ * Return: the results
  */
 char *cap_string(char *s)
 {
 	int k, l;
 
-	char sep[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')',
-		'{', '}'};
+	char sep[13] = {' ', '\t', '\n', ',', ';', '.',
+		'!', '?', '"', '(', ')', '{', '}'};
 
 	for (k = 0; s[k] != '\0'; k++)
 	{
 		if (k == 0 && s[k] >= 'a' && s[k] <= 'z')
 			s[k] -= 32;
+
 		for (l = 0; l < 13; l++)
 		{
 			if (s[k] == sep[l])
