@@ -2,25 +2,32 @@
 
 /**
  * cap_string - reverse the content of an array
- * @c: array
+ * @s: array
+ *
+ * Return: 0
  */
-char *cap_string(char *)
+char *cap_string(char *s)
 {
-	int j;
-	int i;
+	int k, l;
 
-	i = 0;
+	char sep[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')',
+		'{', '}'};
 
-	int temp;
-
-	j = n - 1;
-
-	while (i < j)
+	for (k = 0; s[k] != '\0'; k++)
 	{
-		temp = a[i];
-		a[i] = a[j];
-		a[j] = temp;
-		i++;
-		j--;
+		if (k == 0 && s[k] >= 'a' && s[k] <= 'z')
+		{
+			s[k] -= 32;
+		}
+		for (l = 0; l < 13; l++)
+		{
+			if (s[k] == sep[l])
+			{
+				if (s[k + 1] >= 'a' && s[k + 1] <= 'z')
+				{
+					s[k + 1] -= 32;
+				}
+			}
+		}
 	}
 }
