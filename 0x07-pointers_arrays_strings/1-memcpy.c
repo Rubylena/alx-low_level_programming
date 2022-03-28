@@ -9,13 +9,13 @@
  *
  * Return: A pointer to the filled memory area @dest.
  */
-char *_memcpy(char *dest, char *src,  unsigned int n)
+char *_memcpy(char *s, char b,  unsigned int n)
 {
-	unsigned int i = 0;
+	unsigned int i;
 
 	for (i = 0; i < n; i++)
 	{
-		dest[i] = src[i];
+		s[i] = b;
 	}
-	return (dest);
+	return (s);
 }
