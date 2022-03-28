@@ -2,7 +2,7 @@
 
 /**
  * _strspn - Returns the number of bytes in the initial segment
- * 		of s which consist only of bytes from accept
+ * of s which consist only of bytes from accept
  * @s: A pointer to the s array
  * @accept: The pointer to the accept array
  *
