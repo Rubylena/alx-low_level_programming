@@ -21,6 +21,10 @@ char *_strchr(char *str, char c)
 		}
 		str++;
 	}
+	if (*str == c)
+	{
+		return (str);
+	}
 	if (*str != c)
 	{
 		return (NULL);
