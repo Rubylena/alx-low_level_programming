@@ -25,9 +25,5 @@ char *_strchr(char *str, char c)
 	{
 		return (str);
 	}
-	if (*str != c)
-	{
-		return (NULL);
-	}
 	return ('\0');
 }
