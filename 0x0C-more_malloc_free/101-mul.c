@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(98);
 	}
-	for (i = 1; i <= argc; i++)
+	for (i = 1; i < argc; i++)
 	{
 		for (j = 0; argv[i][j] != '\0'; j++)
 		{
@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 			}
 		}
 	}
-	mul = atol(argv[1]) *  atol(argv[2]);
+	mul = atoi(argv[1]) *  atoi(argv[2]);
 	printf("%lu\n", mul);
 	return (0);
 }
