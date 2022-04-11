@@ -13,5 +13,5 @@
 * [argc_argv](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0A-argc_argv)
 * [Malloc](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0B-malloc_free)
 * [More_malloc](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0C-more_malloc_free)
-* [Preprocessor](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x00-hello_world)
-* [Hello, world](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x00-hello_world)
+* [Preprocessor](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0D-preprocessor)
+* [Strucures](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0E-structures_typedef)
