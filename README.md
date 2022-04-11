@@ -1,7 +1,7 @@
 # Alx low level programming
 
-[Hello_world](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x00-hello_world)
-[Variables_if_else_while](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
+*[Hello_world](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x00-hello_world)
+*[Variables_if_else_while](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
 [Functions_nested loops](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x02-functions_nested_loops)
 [Debugging](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x03-debugging)
 [More_functions](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)
