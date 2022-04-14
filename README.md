@@ -14,4 +14,5 @@
 * [Malloc](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0B-malloc_free)
 * [More_malloc](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0C-more_malloc_free)
 * [Preprocessor](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0D-preprocessor)
-* [Strucures](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0E-structures_typedef)
+* [Structures](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0E-structures_typedef)
+* [Function_pointers](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0E-structures_typedef)
