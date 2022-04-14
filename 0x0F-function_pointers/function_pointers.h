@@ -1,5 +1,7 @@
 #ifndef FUNCTION_POINTERS_H
 #define FUNCTION_POINTERS_H
+#include <stdlib.h>
+#include <stdlib.h>
 /**
  * _putchar - A new type describing a dog.
  * @c: character
