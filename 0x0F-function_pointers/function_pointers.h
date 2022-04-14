@@ -1,5 +1,5 @@
-#ifndef DOG_H
-#define DOG_H
+#ifndef FUNCTION_POINTERS_H
+#define FUNCTION_POINTERS_H
 /**
  * _putchar - A new type describing a dog.
  * @c: character
