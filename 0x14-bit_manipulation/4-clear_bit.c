@@ -7,12 +7,12 @@
  * Return: If an error occurs - -1.
  *         Otherwise - 1.
  */
-int set_bit(unsigned long int *n, unsigned int index)
+int clear_bit(unsigned long int *n, unsigned int index)
 {
-	if (index > 32 * 8 || !n)
+	if (index > 8 * 32 || !n)
 		return (-1);
 
-	/*0UL unsigned long int, put zero at the index indicated*/
+	/*complement unsigned long int, put zero at the index indicated*/
 	*n &= ~(1 << index);
 	return (1);
 }
