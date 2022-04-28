@@ -12,7 +12,7 @@ int set_bit(unsigned long int *n, unsigned int index)
 	if (index > 32 * 8 || !n)
 		return (-1);
 
-	/*0UL unsigned long int, put one at the index indicated*/
-	*n &= ~(1UL << index);
+	/*0UL unsigned long int, put zero at the index indicated*/
+	*n &= ~(1 << index);
 	return (1);
 }
