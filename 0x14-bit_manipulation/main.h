@@ -1,12 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-/**
- * binary_to_uint - singly linked list
- * @b: character pointing to a string
- *
- * Description: Write a function that converts a binary
- * number to an unsigned int
- */
 
 unsigned int binary_to_uint(const char *b);
 void print_binary(unsigned long int n);
