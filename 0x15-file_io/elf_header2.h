@@ -1,15 +1,5 @@
-#ifndef ELF_HEADER2_H
-#define ELF_HEADER2_H
-
 #include "elf_function_header.h"
 
-#include <elf.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
  * print_osabi - Prints the OS/ABI of an ELF header.
@@ -138,5 +128,3 @@ void close_elf(int elf)
 		exit(98);
 	}
 }
-
-#endif /* ELF_HEADER2_H*/
