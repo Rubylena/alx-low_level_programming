@@ -1,5 +1,13 @@
 #include "elf_function_header.h"
 #include "elf_header2.h"
+
+#include <elf.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Displays the information contained in the
  *        ELF header at the start of an ELF file.
