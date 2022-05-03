@@ -1,4 +1,5 @@
 #include "elf_function_header.h"
+#include "elf_header2.h"
 
 /**
  * main - Displays the information contained in the
