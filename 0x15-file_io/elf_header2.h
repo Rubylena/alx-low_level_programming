@@ -1,3 +1,6 @@
+#ifndef ELF_HEADER2_H
+#define ELF_HEADER2_H
+
 #include "elf_function_header.h"
 
 
@@ -128,3 +131,4 @@ void close_elf(int elf)
 		exit(98);
 	}
 }
+#endif /* ELF_HEADER2_H*/
