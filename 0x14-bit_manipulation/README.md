@@ -1,18 +1,50 @@
-# Alx low level programming
+# Tasks
 
-* [Hello_world](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x00-hello_world)
-* [Variables_if_else_while](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
-* [Functions_nested loops](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x02-functions_nested_loops)
-* [Debugging](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x03-debugging)
-* [More_functions](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)
-* [Pointers_arrays_strings](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings)
-* [Pointers_arrays_strings](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)
-* [Pointers_arrays_strings](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings)
-* [Recursion](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x08-recursion)
-* [Static_libraries](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x09-static_libraries)
-* [argc_argv](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0A-argc_argv)
-* [Malloc](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0B-malloc_free)
-* [More_malloc](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0C-more_malloc_free)
-* [Preprocessor](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0D-preprocessor)
-* [Structures](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0E-structures_typedef)
-* [Function_pointers](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0E-structures_typedef)
+* 0.. 0
+Write a function that converts a binary number to an unsigned int.
+Prototype: unsigned int binary_to_uint(const char *b);
+where b is pointing to a string of 0 and 1 chars
+Return: the converted number, or 0 if
+there is one or more chars in the string b that is not 0 or 1
+b is NULL
+
+* 1.. 1
+Write a function that prints the binary representation of a number.
+Prototype: void print_binary(unsigned long int n);
+Format: see example
+You are not allowed to use arrays
+You are not allowed to use malloc
+You are not allowed to use the % or / operators
+
+* 2.. 10
+Write a function that returns the value of a bit at a given index.
+Prototype: int get_bit(unsigned long int n, unsigned int index);
+where index is the index, starting from 0 of the bit you want to get
+Returns: the value of the bit at index index or -1 if an error occured
+
+* 3.. 11
+Write a function that sets the value of a bit to 1 at a given index.
+Prototype: int set_bit(unsigned long int *n, unsigned int index);
+where index is the index, starting from 0 of the bit you want to set
+Returns: 1 if it worked, or -1 if an error occurred
+
+* 4.. 100
+Write a function that sets the value of a bit to 0 at a given index.
+Prototype: int clear_bit(unsigned long int *n, unsigned int index);
+where index is the index, starting from 0 of the bit you want to set
+Returns: 1 if it worked, or -1 if an error occurred
+
+* 5.. 101
+Write a function that returns the number of bits you would need to flip to get from one number to another.
+Prototype: unsigned int flip_bits(unsigned long int n, unsigned long int m);
+You are not allowed to use the % or / operators
+
+* 6.. Endianness
+Write a function that checks the endianness.
+Prototype: int get_endianness(void);
+Returns: 0 if big endian, 1 if little endian
+
+* 7. Crackme3
+Find the password for this program.
+Save the password in the file 101-password
+Your file should contain the exact password, no new line, no extra space
