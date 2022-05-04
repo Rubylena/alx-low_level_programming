@@ -1,6 +1,6 @@
 ## Tasks
 
-* 0. isupper
+* 0.. isupper
 Write a function that checks for uppercase character.
 Prototype: int _isupper(int c);
 Returns 1 if c is uppercase
@@ -78,7 +78,7 @@ Write a program that finds and prints the largest prime factor of the number 612
 You are allowed to use the standard library
 Your program will be compiled with this command: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-prime_factor.c -o 100-prime_factor -lm
     
-12.. Numbers have life; they're not just symbols on paper
+* 12.. Numbers have life; they're not just symbols on paper
 Write a function that prints an integer.
 Prototype: void print_number(int n);
 You can only use _putchar function to print
