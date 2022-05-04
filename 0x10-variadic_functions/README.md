@@ -1,18 +1,43 @@
-# Alx low level programming
+# Tasks
 
-* [Hello_world](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x00-hello_world)
-* [Variables_if_else_while](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
-* [Functions_nested loops](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x02-functions_nested_loops)
-* [Debugging](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x03-debugging)
-* [More_functions](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)
-* [Pointers_arrays_strings](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings)
-* [Pointers_arrays_strings](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)
-* [Pointers_arrays_strings](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings)
-* [Recursion](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x08-recursion)
-* [Static_libraries](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x09-static_libraries)
-* [argc_argv](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0A-argc_argv)
-* [Malloc](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0B-malloc_free)
-* [More_malloc](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0C-more_malloc_free)
-* [Preprocessor](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0D-preprocessor)
-* [Structures](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0E-structures_typedef)
-* [Function_pointers](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0E-structures_typedef)
+* **0. Beauty is variable, ugliness is constant**
+Write a function that returns the sum of all its parameters.
+Prototype: int sum_them_all(const unsigned int n, ...);
+If n == 0, return 0
+
+* **1. To be is to be the value of a variable**
+Write a function that prints numbers, followed by a new line.
+Prototype: void print_numbers(const char *separator, const unsigned int n, ...);
+where separator is the string to be printed between numbers
+and n is the number of integers passed to the function
+You are allowed to use printf
+If separator is NULL, don’t print it
+Print a new line at the end of your function
+
+* **2. One woman's constant is another woman's variable**
+Write a function that prints strings, followed by a new line.
+Prototype: void print_strings(const char *separator, const unsigned int n, ...);
+where separator is the string to be printed between the strings
+and n is the number of strings passed to the function
+You are allowed to use printf
+If separator is NULL, don’t print it
+If one of the string is NULL, print (nil) instead
+Print a new line at the end of your function
+
+* **3. To be is a to be the value of a variable**
+Write a function that prints anything.
+Prototype: void print_all(const char * const format, ...);
+where format is a list of types of arguments passed to the function
+c: char
+i: integer
+f: float
+s: char * (if the string is NULL, print (nil) instead
+any other char should be ignored
+see example
+You are not allowed to use for, goto, ternary operator, else, do ... while
+You can use a maximum of
+2 while loops
+2 if
+You can declare a maximum of 9 variables
+You are allowed to use printf
+Print a new line at the end of your function
