@@ -1,26 +1,42 @@
-# Alx low level programming
+## Tasks :page_with_curl:
 
-* [Hello_world](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x00-hello_world)
-* [Variables_if_else_while](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
-* [Functions_nested loops](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x02-functions_nested_loops)
-* [Debugging](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x03-debugging)
-* [More_functions](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)
-* [Pointers_arrays_strings](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings)
-* [Pointers_arrays_strings](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)
-* [Pointers_arrays_strings](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings)
-* [Recursion](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x08-recursion)
-* [Static_libraries](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x09-static_libraries)
-* [argc_argv](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0A-argc_argv)
-* [Malloc](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0B-malloc_free)
-* [More_malloc](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0C-more_malloc_free)
-* [Preprocessor](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0D-preprocessor)
-* [Structures](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0E-structures_typedef)
-* [Function_pointers](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x0F-function_pointers)
-* [Variadic functions](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x10-variadic_functions)
-* [Printf](https://github.com/Rubylena/printf)
-* [Singly linked lists](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x12-singly_linked_lists)
-* [More singly linked lists](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x13-more_singly_linked_lists)
-* [Bit manipulation](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x14-bit_manipulation)
-* [File I/O](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x15-file_io)
-* [Doubly_linked_lists](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x17-doubly_linked_lists)
-* [Dynamic_libraries](https://github.com/Rubylena/alx-low_level_programming/tree/master/0x18-dynamic_libraries)
+* **0. A library is not a luxury but one of the necessities of life**
+  * [libholberton.so](./libholberton.so): C dynamic library containing all the functions
+  listed below:
+    * `int _putchar(char c);`
+    * `int _islower(int c);`
+    * `int _isalpha(int c);`
+    * `int _abs(int n);`
+    * `int _isupper(int c);`
+    * `int _isdigit(int c);`
+    * `int _strlen(char *s);`
+    * `void _puts(char *s);`
+    * `char *_strcpy(char *dest, char *src);`
+    * `int _atoi(char *s);`
+    * `char *_strcat(char *dest, char *src);`
+    * `char *_strncat(char *dest, char *src, int n);`
+    * `char *_strncpy(char *dest, char *src, int n);`
+    * `int _strcmp(char *s1, char *s2);`
+    * `char *_memset(char *s, char b, unsigned int n);`
+    * `char *_memcpy(char *dest, char *src, unsigned int n);`
+    * `char *_strchr(char *s, char c);`
+    * `unsigned int _strspn(char *s, char *accept);`
+    * `char *_strpbrk(char *s, char *accept);`
+    * `char *_strstr(char *haystack, char *needle);`
+
+  * [holberton.h](./holberton.h): Header file containing the prototypes of all functions
+  included in `libholberton.so`.
+
+* **1. Without libraries what have we? We have no past and no future**
+  * [1-create_dynamic_lib.sh](./1-create_dynamic_lib.sh): Bash script that creates a
+  dynamic library called `liball.so` from all the `.c` files in the current directory.
+
+* **2. Let's call C functions from Python**
+  * [100-operations.so](./100-operations.so): C dynamic library containing basic C
+  mathematical operation functions that can be called from Python.
+  * Includes:
+    * `int add(int a, int b);`
+    * `int sub(int a, int b);`
+    * `int mul(int a, int b);`
+    * `int div(int a, int b);`
+    * `int mod(int a, int b);`
