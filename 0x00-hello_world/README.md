@@ -55,3 +55,26 @@ Write a C program that prints exactly and that piece of art is useful" - Dora Ko
 You are not allowed to use any functions listed in the NAME section of the man (3) printf or man (3) puts
 Your program should return 1
 Your program should compile without any warnings when using the -Wall gcc option
+
+
+# Betty Script
+#!/bin/bash
+# Simply a wrapper script to keep you from having to use betty-style
+# and betty-doc separately on every item.
+# Originally by Tim Britton (@wintermanc3r), multiargument added by
+# Larry Madeo (@hillmonkey)
+
+BIN_PATH="/usr/local/bin"
+BETTY_STYLE="betty-style"
+BETTY_DOC="betty-doc"
+
+if [ "$#" = "0" ]; then
+    echo "No arguments passed."
+    exit 1
+fi
+
+for argument in "$@" ; do
+    echo -e "\n========== $argument =========="
+    ${BIN_PATH}/${BETTY_STYLE} "$argument"
+    ${BIN_PATH}/${BETTY_DOC} "$argument"
+done
