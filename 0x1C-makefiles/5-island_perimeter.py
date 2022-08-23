@@ -19,8 +19,8 @@ def island_perimeter(grid):
         for row in range(width):
             if grid[column][row] == 1:
                 size += 1
-                if (j > 0 and grid[column][row - 1] == 1):
+                if (row > 0 and grid[column][row - 1] == 1):
                     edges += 1
-                if (i > 0 and grid[column - 1][row] == 1):
+                if (column > 0 and grid[column - 1][row] == 1):
                     edges += 1
     return size * 4 - edges * 2
